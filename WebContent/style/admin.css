@@ -1,0 +1,704 @@
+*{
+	padding: 0;
+	margin: 0 auto;}
+
+.clear{
+	clear: both;
+}
+/*瀵艰埅鏍�*/
+.nav{
+	width: 100vw;
+	height: 8vh;
+	background-color: #36b2a1;
+}
+
+.nav_title{
+	line-height:  8vh;
+	font-size:25px;
+	color: #fff;
+	margin-left: 50px;
+	float: left;
+}
+
+.user{
+	line-height:  8vh;
+	font-size: 25px;
+	color: #fff;
+	margin-right: 50px;
+	float: right;
+}
+.logout{
+	font-size:15px;
+	color:red;
+}
+
+.user_name{
+	line-height: 8vh;
+	font-size:25px;
+	color: #eacece;
+	
+}
+
+/*涓棿涓讳綋鍐呭*/
+.container-fluid{
+	width: 100vw;
+	height:84vh; 
+	padding: 0;
+	margin: 0;
+}
+/*宸﹁竟鍔熻兘鍒嗙被*/
+.container_left{
+	width: 20vw;
+	float: left;
+	height:84vh; 
+	border-right: 2px solid #d8d8d8;
+}
+/*鍙宠竟*/
+.container_right{
+	float: left;
+	width: 80vw;
+	height:84vh; 
+}
+/*璁剧疆鍙宠竟鍐呭闅愯棌*/
+.right_item{
+	/*display: none;*/
+}
+
+
+/*娣诲姞绠＄悊鍛樻牱寮�*/
+.add1{
+	width:70vw;
+	
+	padding: 20px;
+}
+/*.add1 .has_admin{
+	
+	padding:0 auto;
+	
+}*/
+.add1 .has_admin_table{
+	margin-top: 30px;
+	height: 50vh;
+	overflow: auto;
+
+}
+.add1 table th,.add1 table{
+	text-align: center;
+}
+.add1 .has_admin_title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+
+.add1 .add_admin{
+	margin-top: 20px;
+	
+	padding:0 auto;
+}
+
+.add1 .add_admin_title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+.add1 form{
+	margin-top: 30px;
+}
+.add1 input.userId,.add1 input.name,.add1 input.email{
+	width: 15vw;
+	float:left;
+	margin-left: 10px;
+}
+.add1 select{
+	width: 5vw;
+	float:left;
+	margin-left: 5px;
+}
+
+.add1 .btn{
+	margin-left: 20px;
+	width: 5vw;
+}
+
+/*娣诲姞瀛﹂櫌鏍峰紡*/
+.add2{
+	width: 70vw;
+	padding: 20px;
+}
+.xy_table{
+	margin-top: 20px;
+	height: 40vh;
+	overflow: auto;
+}
+.add2 table th,.add2 table{
+	text-align: center;
+}
+
+.add2 .has_xy .title,.add_xy .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+.add2 .add_form{
+	width: 65vw;
+	margin-top: 20px;
+}
+.add2 .add_form input.xyName{
+	width: 60vw;
+
+}
+.add2 .add_form textarea{
+	width: 60vw;
+	height: 10vh;
+	margin-top: 20px;
+}
+.add2 .add_form input.btn{
+	float: right;
+	width: 80px;
+	margin-right: 5vw;
+	margin-top: 20px;
+}
+
+/*娣诲姞涓撲笟*/
+.add3{
+	width: 70vw;
+	padding: 20px;
+}
+.zy_table{
+	margin-top: 20px;
+	height: 35vh;
+	overflow: auto;
+}
+.add3 table th,.add3 table{
+	text-align: center;
+}
+.add3 .has_zy .title,.add_zy .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+.add3 .add_form{
+	width: 55vw;
+	margin-left:5vw;
+	margin-top: 20px;
+}
+.add3 input{
+	margin-top: 20px;
+	width:55vw;
+}
+.add3 textarea{
+	height: 10vh;
+	margin-top: 20px;
+	width:55vw;
+}
+.add3 input.btn{
+	width: 80px;
+	float: right;
+}
+
+/*娣诲姞鐝骇*/
+.add4{
+	width: 70vw;
+	padding: 20px;
+}
+.bj_table{
+	margin-top: 20px;
+	height: 55vh;
+	overflow: auto;
+}
+.add4 table th,.add4 table{
+	text-align: center;
+}
+.add4 .has_bj .title,.add_bj .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+.add4 .add_bj{
+	margin-top:20px;
+}
+.add4 .add_form{
+	width: 60vw;
+	margin-left:5vw;
+	/*margin-top: 20px;*/
+}
+.add4 select.xyId{
+	float: left;
+	width: 15vw;
+	margin-top: 20px;
+	margin-left:20px;
+}
+.add4 select.zyId{
+	float: left;
+	width: 15vw;
+	margin-top: 20px;margin-left:20px;
+	
+}
+.add4 input.bjName{
+	margin-top: 20px;
+	float: left;
+	width: 15vw;margin-left:20px;
+}
+.add4 input.btn{
+	width: 80px;
+	float: left;
+	margin-top: 20px;margin-left:20px;
+}
+
+
+/*娣诲姞鏁欏笀*/
+.add5{
+	width: 70vw;
+	padding: 20px;
+}
+.add5 .teacher_table{
+	margin-top: 20px;
+	height: 55vh;
+	overflow: auto;
+}
+.add5 table th,.add5 table{
+	text-align: center;
+}
+.add5 .has_teacher .title,.add_teacher .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+.add5 .add_form{
+	width: 68vw;
+	
+	margin-top: 20px;
+}
+.add5 input,.add5 select{
+	float: left;
+	width: 10vw;
+	margin-left: 2vw;
+}
+.add5 input.btn{
+	width: 80px;
+	float: left;
+	
+}
+
+/*娣诲姞璇剧▼*/
+.add6{
+	width: 70vw;
+	padding: 20px;
+}
+.add6 .project_table{
+	margin-top: 20px;
+	height: 45vh;
+	overflow: auto;
+}
+.add6 table th,.add6 table{
+	text-align: center;
+}
+.add6 .has_project .title,.add_project .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+.add6 .add_form{
+	width: 60vw;
+	
+	margin-top: 20px;
+}
+.add6 input{
+	margin-top: 20px;
+}
+
+.add6 input.btn{
+	width: 80px;
+	float: right;
+	margin-top: 20px;
+}
+
+/*娣诲姞瀛︽湡*/
+.add7{
+	width: 70vw;
+	padding: 20px;
+}
+.add7 .semester_table{
+	margin-top: 20px;
+	height:55vh;
+	overflow: auto;
+}
+.add7 table th,.add7 table{
+	text-align: center;
+}
+.add7 .has_semester .title,.add_semester .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+.add7 .add_form{
+	width: 50vw;
+	
+	margin-top: 20px;
+}
+.add7 input{
+	margin-top: 20px;
+}
+
+.add7 input.btn{
+	width: 80px;
+	float: right;
+	margin-top: 20px;
+}
+
+/*娣诲姞鑰冭瘯绫诲瀷*/
+.add8{
+	width: 70vw;
+	padding: 20px;
+}
+.add8 .examType_table{
+	margin-top: 20px;
+	height: 55vh;
+	overflow: auto;
+}
+.add8 table th,.add8 table{
+	text-align: center;
+}
+.add8 .has_examType .title,.add_examType .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+.add8 .add_form{
+	width: 50vw;
+	
+	margin-top: 20px;
+}
+.add8 input{
+	margin-top: 20px;
+}
+
+.add8 input.btn{
+	width: 80px;
+	float: right;
+	margin-top: 20px;
+}
+/*删除按钮*/
+.delete{
+	color: #fff;
+	padding: 0;
+
+}
+.delete .btn{
+	height: 24px;
+	padding: 2px 10px;
+}
+/*添加学生*/
+.add9{
+width: 70vw;
+	padding: 20px;
+}
+.add9 .add_student .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+
+.add9 select,.add9 input{
+	width:20vw;
+	margin-top:10px;
+	margin-left:20vw;
+}
+
+
+/*查看教师*/
+.see2{
+	width: 70vw;
+	padding: 20px;
+}
+.see2 .teacher_table{
+	margin-top: 20px;
+	height: 70vh;
+	overflow: auto;
+}
+.see2 table th,.see2 table{
+	text-align: center;
+}
+
+.see2 .has_teacher .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+
+/*查看管理员*/
+.see3{
+	width: 70vw;
+	padding: 20px;
+}
+.admin_table{
+	margin-top: 20px;
+	height: 70vh;
+	overflow: auto;
+}
+.see3 table th,.see3 table{
+	text-align: center;
+}
+
+.see3 .has_admin .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+/*查看学生*/
+
+.see4{
+	width:70vw;
+	padding:0 20px;
+}
+
+.see4 .student_input{
+	margin-top: 20px;
+	height: 30PX;
+	line-height: 30PX;
+}
+.see4 .student_input select,.see4 .student_input input{
+	float: left;
+	
+}
+.see4 .student_input select{
+	width: 15vw;
+	margin-left: 3vw;
+}
+.see4 .student_input input{
+	width:80px;
+	margin-left:80px;
+}
+.see4 .see_student{
+	margin-top: 20px;
+	height: 75vh;
+}
+.see4 table th,.see4 table{
+	text-align: center;
+}
+.see4 .see_student_title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+.see4 .see_student_table{
+	margin-top: 20px;
+	height: 60vh;
+	overflow: auto;
+}
+.see4 .table>tbody>tr>td{
+	padding: 5px;
+}
+
+
+
+/*查看学院-专业-班级*/
+
+.see1{
+	width:70vw;
+	padding:0 20px;
+}
+
+.see1 .student_input{
+	margin-top: 20px;
+	height: 30PX;
+	line-height: 30PX;
+}
+.see1 .student_input select,.see1 .student_input input{
+	float: left;
+	
+}
+.see1 .student_input select{
+	width: 15vw;
+	margin-left: 3vw;
+}
+.see1 .student_input input{
+	width:80px;
+	margin-left:80px;
+}
+.see1 .see_student{
+	margin-top: 20px;
+	height: 75vh;
+}
+.see1 table th,.see1 table{
+	text-align: center;
+}
+
+
+/*查看学生*/
+.see1 .see_student_title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+.see1 .see_student_table{
+	margin-top: 20px;
+	height: 60vh;
+	overflow: auto;
+}
+.see1 .table>tbody>tr>td{
+	padding: 5px;
+}
+
+/*查看考试类型*/
+.see5{
+	width: 70vw;
+	padding: 20px;
+}
+.examType_table{
+	margin-top: 20px;
+	height: 70vh;
+	overflow: auto;
+}
+.see5 table th,.see5 table{
+	text-align: center;
+}
+
+.see5 .has_examType .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+
+
+/*查看学期*/
+.see6{
+	width: 70vw;
+	padding: 20px;
+}
+.semester_table{
+	margin-top: 20px;
+	height: 70vh;
+	overflow: auto;
+}
+.see6 table th,.see6 table{
+	text-align: center;
+}
+
+.see6 .has_semester .title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+
+
+/*修改密码*/
+.change1{
+	width: 70vw;
+	padding: 20px;
+
+	
+	height: 70vh;
+	
+}
+
+.change1 .changePassword_title{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 auto;
+	font-size: 20px;
+	border-left:5px solid #36b2a1;
+	padding-left:10px;
+	margin-left: -30px;
+}
+
+.change1 input{
+	width:45vw;
+	padding:0 auto;
+	margin-top:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*搴曢儴*/
+.footer{
+	width: 100vw;
+	height: 8vh;
+	background-color: #36b2a1;
+}
+.footer_text{
+	line-height: 8vh;
+	font-size: 18px;
+	color: #fff;
+	margin-left: 35vw;
+}

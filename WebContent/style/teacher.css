@@ -1,0 +1,377 @@
+*,body{
+	margin: 0;
+	padding: 0;
+	
+}
+a{
+	color: #000;
+}
+.clear{
+	clear: both;
+}
+/*页面标题*/
+.page_title{
+	height: 80px;
+	line-height: 80px;
+}
+.page_title .title{
+	float: left;
+	width: 70%;
+	font-size: 30px;
+	font-weight: 800;
+	margin-left: 60px;
+
+}
+.page_title .my_info{
+	float: left;
+	width: 15%;
+	font-size: 20px;
+}
+.page_title  img{
+	margin-top: 25px;
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+/*导航栏样式nav*/
+.nav{
+	width: 100vw;
+	height: 50px;
+	background-color: #36b2a1;
+	text-align: center;
+}
+.nav .li_noitem{
+	width: 32%;
+	float: left;
+}
+.nav .li_item{
+	width: 10%;
+	float: left;
+}
+.nav li{
+	
+	list-style-type: none;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+}
+.nav .li_item:hover{
+	background-color:  rgb(54, 178, 220);
+}
+
+.my_message .label{
+	font-size: 50%;
+	margin-top: -10px;
+}
+
+
+/*中间主体内容*/
+.container{
+	padding: 20px auto;
+	width: 65vw;
+	height:76vh;
+}
+.message_page_title{
+	padding: 10px 10px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.message_page_title img{
+	width: 30px;
+	height: 30px;
+}
+
+/*我的消息  start*/
+.message .button_list{
+	margin-left: 20px;
+}
+.message .button_list span{
+	font-size: 22px;
+	padding: 0 30px;
+}
+.my_message  button{
+	background-color: #fff;
+}
+.my_message .my_message_num{
+	vertical-align: middle;
+}
+
+.message_table{
+	margin-top: 20px;
+	height: 60vh;
+	overflow: auto;
+}
+.button_list  button{
+	margin-left:10px;
+}
+
+.message table th,.message table{
+	text-align: center;
+}
+
+
+/*已读消息样式*/
+.readed_message,.readed_message a{
+	color: #d8d8d8;
+}
+
+/*消息详情样式*/
+.message_info{
+	width: 65vw;
+	height:76vh;
+
+	
+}
+.message_info .back{
+	font-size: 20px;
+margin-top: 5px;
+    margin-left: 20px;
+}
+.message_info  img{
+	
+
+	width: 30px;
+	height: 30px;	
+}
+.message_info .message_title{
+	background-color: #f7f8fc;
+    margin: 0 20px;
+    font-size: 18px;
+    line-height: 60px;
+    border-bottom: 1px solid #e5e9f1;
+    padding-left:40px;
+    margin-top: 20px;
+}
+.message_info  .message_des{
+	float: right;
+	
+}
+.message_info .time{
+	margin-left: 120px;
+}
+.message_info .message_from{
+	margin-left: 2vw;
+}
+.message_info .message_send_man{
+
+}
+
+.message_info .message_content{
+	margin: 5px 20px 20px;
+    border-bottom: 1px solid #cfd1d5;
+    padding-bottom: 20px;
+	text-align: center;
+}
+
+
+/*开设课程*/
+.set_project{
+	
+
+}
+.set_project_page_title{
+	padding: 10px 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.set_project_page_title img{
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+.project_input{
+	width: 60%;
+	float: left;
+	
+}
+.my_projects{
+	float:right;
+	width: 40%;
+	margin-top: 30px;
+	padding: 10px 10px;
+    font-size: 20px;
+	margin-top: 5px;
+	
+}
+.my_projects img{
+	width: 120px;
+	height: 120px;
+	margin-right: 5px;
+	margin-top: -5px;
+}
+.freetime table {
+	border-collapse: collapse;
+	height: 500px;
+	width: 100%;
+	color: gray;
+	background: #FCFCFC;
+}
+
+
+
+.freetime table, th, td {
+	border: 1px solid lightgray;
+	text-align: center;
+}
+.freetime th {
+	background: lightblue;
+	color: white;
+}
+.freetime img {
+	width: 200px;
+	height: 200px;
+}
+
+.freetime label {
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-top: 4px;
+}
+.freetime label:hover {
+	cursor: pointer;
+	background: lightgray;
+}
+.freetime input[type="text"] {
+	width: 256px;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-size: 16px;
+	padding: 4px 0;
+	text-align: center;
+}
+.freetime input[type="text"]:focus {
+	border-bottom: 1px solid lightgreen;
+}
+.freetime input[type="checkbox"] {
+	display: none;
+}
+.freetime input[type="checkbox"]:checked+label {
+	background: #36b2a1;
+}
+.project_btn{
+	margin-top: 50px;
+	margin-left:150px;
+	width: 120px;
+}
+/*我的课程*/
+.my_project{
+	
+}
+.project_input .xyId,.project_input .zyId,.project_input .bjId,.project_input .project,.project_input .week,.project_input .time,.project_input .credit,.project_input .semester{
+	width:20vw;
+	margin-top: 10px;
+	margin-left: 10vw;
+}
+
+.my_project .back1{
+	font-size: 20px;
+	margin-top: 5px;
+    margin-left: 20px;
+}
+.my_project  img{
+	
+
+	width: 30px;
+	height: 30px;	
+}
+
+.project_table{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.project_table table td{
+	width: 90px;
+	height: 90px;
+}
+.project_table .table_title{
+	background-color: #36b2a1;
+}
+
+/*添加成绩*/
+.add_achievement{
+	display: none; 
+
+}
+.add_achievement_title {
+	padding: 10px 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.add_achievement_title img{
+	width: 30px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+.achievement{
+	margin-left: 20px;
+	margin-top:120px;
+}
+
+.achievement .add,.achievement .see,.achievement .list{
+	float: left;
+	margin-left:10vw;
+}
+.achievement div{
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+/*添加考试成绩具体页面*/
+.add_achievements{
+	display: none; 
+}
+
+
+.add_achievements .back2{
+	font-size: 20px;
+margin-top: 5px;
+    margin-left: 20px;
+}
+.add_achievements  img{
+	
+
+	width: 30px;
+	height: 30px;	
+}
+.add_achievements_input{
+	margin-top: 20px;
+	margin-left: 2vw;
+}
+.add_achievements_input select{
+	width: 8vw;
+	float: left;
+	margin-left: 2vw;
+}
+.add_achievements_input input{
+	margin-left: 2vw;
+}
+/*发布通知*/
+.put_message_title{
+	padding: 10px 10px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.put_message_title img{
+	width: 30px;
+	height: 30px;
+}
+
+/*底部*/
+.footer{
+	background-color: #36b2a1;
+	width: 100%;
+	height: 6.7vh;
+}
+.footer_text{
+	line-height: 6.7vh;
+	font-size: 18px;
+	color: #fff;
+	margin-left: 35vw;
+}

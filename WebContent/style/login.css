@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*登录页面*/
+.panel-heading{
+	
+	height: 40px;
+	}
+.panel-body
+{
+	height: 250px;
+	margin-top: 10px;
+}
+
+.dr{
+	margin-top: 130px;
+	opacity:0.9;
+}
+
+.dran{
+	width: 100%;
+
+}
+.err{
+	height: 10px;
+}
+span.err{
+	color: red;
+}
+
+
+.input_email,.input_password{
+	background-color: #f2f6f9;
+}
+
+
+
+.reserved{
+	font-size: 10px;
+	color: #ddd;
+	margin-top: 15px;
+	margin-left:70px;
+}
